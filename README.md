@@ -18,3 +18,4 @@ brew uninstall sblg
 The following formulae are available:
 
 - [sblg](https://kristaps.bsd.lv/sblg): simple off-line blog utility
+- [lowdown](https://kristaps.bsd.lv/lowdown): simple Markdown translator
