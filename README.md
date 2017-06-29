@@ -20,3 +20,4 @@ The following formulae are available:
 - [sblg](https://kristaps.bsd.lv/sblg): simple off-line blog utility
 - [lowdown](https://kristaps.bsd.lv/lowdown): simple Markdown translator
 - [divecmd](https://kristaps.bsd.lv/divecmd): download and process dive computer data
+- [ksql](https://kristaps.bsd.lv/ksql): yet another C SQLite wrapper
