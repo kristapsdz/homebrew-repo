@@ -1,10 +1,10 @@
 class Lowdown < Formula
-  desc "simple Markdown translator"
-  homepage "https://kristaps.bsd.lv/lowdown"
-  url "https://kristaps.bsd.lv/lowdown/snapshots/lowdown-0.2.7.tar.gz"
-  sha256 "c96c105c231484843a8d38e8b7deb248ef7736810953b9289f613fef9d777de1"
-  def install
-    system "./configure"
-    system "make", "install", "BINDIR=#{bin}", "LIBDIR=#{lib}", "INCLUDEDIR=#{include}", "MANDIR=#{man}"
-  end
+	desc "simple Markdown translator"
+	homepage "https://kristaps.bsd.lv/lowdown"
+	url "https://kristaps.bsd.lv/lowdown/snapshots/lowdown-0.3.0.tar.gz"
+	sha256 "5495a299227e49241ba2415065c0a3f32ed3334834db7aa611d65c5d2cbd57e7"
+	def install
+		system "./configure", "PREFIX=#{prefix}", "MANDIR=#{man}", "SHAREDIR=#{share}", "BINDIR=#{bin}", "INCLUDEDIR=#{include}", "LIBDIR=#{lib}"
+		system "make", "install"
+	end
 end
