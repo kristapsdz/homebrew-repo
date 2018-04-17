@@ -1,8 +1,8 @@
 class Divecmd < Formula
 	desc "download and process dive computer data"
 	homepage "https://kristaps.bsd.lv/divecmd"
-	url "https://kristaps.bsd.lv/divecmd/snapshots/divecmd-0.0.13.tar.gz"
-	sha256 "6a23d01c6dc163ca1dbf79967747045e19338826bdd0c91a6bb21e67bd900908"
+	url "https://kristaps.bsd.lv/divecmd/snapshots/divecmd-0.0.15.tar.gz"
+	sha256 "75bba62a3274d0f182f9b1956d18e66b9b09d520e6b3285afb1e98e3474245e1"
 	depends_on "libdivecomputer" => :build
 	depends_on "groff" => :run
 	depends_on "grap" => :run
