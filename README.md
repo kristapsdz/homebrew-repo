@@ -21,4 +21,5 @@ The following formulae are available:
 - [kcgi](https://kristaps.bsd.lv/kcgi): minimal CGI and FastCGI library in C
 - [ksql](https://kristaps.bsd.lv/ksql): yet another C SQLite wrapper
 - [lowdown](https://kristaps.bsd.lv/lowdown): simple Markdown translator
+- [libdiff](https://github.com/kristapsdz/libdiff): generate arbitrary sequence diffs
 - [sblg](https://kristaps.bsd.lv/sblg): simple off-line blog utility
