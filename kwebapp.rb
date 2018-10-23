@@ -1,8 +1,8 @@
 class Kwebapp < Formula
 	desc "web application source generator"
 	homepage "https://kristaps.bsd.lv/kwebapp"
-	url "https://kristaps.bsd.lv/kwebapp/snapshots/kwebapp-0.6.2.tar.gz"
-	sha256 "be8169e2be27b7cef810e142995ee4062f09daf1867d19afbc1385850851bffa"
+	url "https://kristaps.bsd.lv/kwebapp/snapshots/kwebapp-0.6.3.tar.gz"
+	sha256 "43d3000620429fe51b879befc37298a52eab28319edf0cf211c57510122b7812"
 	def install
 		system "./configure", "CPPFLAGS=-I#{include}", "LDFLAGS=-L#{lib}", "PREFIX=#{prefix}", "MANDIR=#{man}", "SHAREDIR=#{share}"
 		system "make", "install"
