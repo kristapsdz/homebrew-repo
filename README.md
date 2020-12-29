@@ -1,6 +1,7 @@
-This is the [Homebrew](https://brew.sh) repository for
-[BSD.lv](https://www.bsd.lv) software.  It is kept reasonably up to date
-as we release new BSD.lv software.
+This is the [Homebrew](https://brew.sh) repository for some
+[BSD.lv](https://www.bsd.lv) software.  I tend to forget about these, so
+if you see that the software version is old, please send me an email or
+raise an issue!
 
 To use this tap, run:
 
@@ -19,8 +20,11 @@ The following formulae are available:
 
 - [divecmd](https://kristaps.bsd.lv/divecmd): download and process dive computer data
 - [kcgi](https://kristaps.bsd.lv/kcgi): minimal CGI and FastCGI library in C
-- [ksql](https://kristaps.bsd.lv/ksql): yet another C SQLite wrapper
 - [kwebapp](https://kristaps.bsd.lv/kwebapp): web application source generator
 - [lowdown](https://kristaps.bsd.lv/lowdown): simple Markdown translator
-- [libdiff](https://github.com/kristapsdz/libdiff): generate arbitrary sequence diffs
 - [sblg](https://kristaps.bsd.lv/sblg): simple off-line blog utility
+
+The following have been removed:
+
+- [ksql](https://kristaps.bsd.lv/ksql): replaced by sqlbox
+- [libdiff](https://github.com/kristapsdz/libdiff): merged into lowdown
