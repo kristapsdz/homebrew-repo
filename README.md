@@ -23,6 +23,7 @@ The following formulae are available:
 - [lowdown](https://kristaps.bsd.lv/lowdown): simple Markdown translator
 - [openradtool](https://kristaps.bsd.lv/openradtool): application source generator
 - [sblg](https://kristaps.bsd.lv/sblg): simple off-line blog utility
+- [sqlbox](https://kristaps.bsd.lv/sqlbox): database access library
 
 The following have been removed:
 
