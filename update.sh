@@ -1,6 +1,6 @@
 #! /bin/sh
 
-for f in *.rb
+for f in Formula/*.rb
 do
 	project=`basename $f .rb`
 	url=https://kristaps.bsd.lv/$project/snapshots/$project
